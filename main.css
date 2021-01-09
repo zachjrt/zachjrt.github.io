@@ -2,7 +2,7 @@
     body {
     width: 80%;
     margin: auto;
-    background-color: #AAC;
+    background-color: #CCF;
     font-family: 'Roboto', sans-serif;
     }
       img {
@@ -13,6 +13,7 @@
       h1 {
         font-size: 2em;
         font-family: 'Hachi Maru Pop', cursive;
+        padding: 0 1rem 0 1rem;
     }
       h2 {
         font-size: 1.5em;
