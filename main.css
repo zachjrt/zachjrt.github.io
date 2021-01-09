@@ -3,6 +3,7 @@
     width: 80%;
     margin: auto;
     background-color: #AAC;
+    font-family: 'Roboto', sans-serif;
     }
       img {
         max-width: 100%;
@@ -11,10 +12,12 @@
       }
       h1 {
         font-size: 2em;
+        font-family: 'Hachi Maru Pop', cursive;
     }
       h2 {
         font-size: 1.5em;
         text-align: center;
+        font-family: 'Hachi Maru Pop', cursive;
     }
       header, main, footer {
         margin: 1.25rem auto;
@@ -28,6 +31,9 @@
     }
     footer {
       background-color: #446;
+    }
+    a {
+      color:cornflowerblue
     }
       p {
         padding: 0 1rem 0 1rem;
