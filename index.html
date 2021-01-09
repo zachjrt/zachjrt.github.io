@@ -14,7 +14,7 @@
  <main> 
   <header>
 <h1>Zachary Thompson</h1>
-<img id="portrait1" src="portrait.jpg">
+<img id="portraitPortal" alt="Zach Thompson" src="portrait.jpg">
 </header>
 
 
@@ -24,15 +24,21 @@
 <li>Lesson #2: <a href="http://www.byui.edu/online">Assignment link</a></li>
 <li>Lesson #3: <a href="http://www.byui.edu/online">Assignment link</a></li>
 <li>Lesson #4: <a href="#">link </a> | <a href="#">link </a></li>
-...
-<br />
-<br />
-<br />
 </ul>
-
+<br />
+<br />
+<br />
 
  <footer>
- <p>&copy;2021 | Zachary Thompson | Arizona | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+ <p>&copy;<span id="year">2021</span>| Zachary Thompson | Arizona | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+<script>
+  var date = document.lastModified;
+  document.write("Last Modified: " + date);
+</script>
+<br>
+<script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 </footer>
 </main>
 </body>
