@@ -35,6 +35,12 @@ header, footer {
 a {
         color:rgb(50, 76, 124);
   }
+header a, footer a {
+  color: rgb(149 179 234);
+}
+footer {
+  text-align: center;
+}
 p {
         padding: 0 1rem 0 1rem;
   } 
