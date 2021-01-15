@@ -62,8 +62,8 @@ button {
         float: right;
         z-index: 10;
   }
-  #mobileScreen {
+#mobileScreen {
     width:220px;
-    z-index: 10;
+    float: right;
 }
       
