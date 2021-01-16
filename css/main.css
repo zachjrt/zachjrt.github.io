@@ -66,15 +66,9 @@ button {
         filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.85));
   }
 #mobileScreen {
-        width:220px;
-        float: right;
-        padding: 2.5em;
+        width:100%;
 }
-#mobileScreenLeft {
-        width:220px;
-        float: left;
-        padding: 2.5em;
-}
+
 #container {
         overflow:auto;
         background-color: #FFFFFF;
