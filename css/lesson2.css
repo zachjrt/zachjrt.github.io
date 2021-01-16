@@ -1,4 +1,6 @@
-/* phone or baseline views **************************/
+
+/*Heavily draws from https://codepen.io/blazzard-jason/pen/GVOVOm*/
+/* phone */
 main {
 	max-width: 767px;
 	margin: 0 auto;
@@ -13,21 +15,20 @@ main section h2 {
 
 main section {
 	margin: 0.5rem;
-	border: 1px solid #bbb;
+	border: 1px solid #aaa;
 	padding: 0 1rem;
 	background-color: #eee;
 }
 
 main section:nth-child(2) {
-	display: none;
 	margin: 0.5rem;
 }
 
 .colimage {
-	box-shadow: 0 0 30px #333;
+	box-shadow: 0 0 10px #333;
 }
 
-/* Tablet Views ******************************/
+/* Tablet */
 @media only screen and (min-width: 37.5em) {
 	main {
 		grid-template-columns: 1fr 1fr;
@@ -47,11 +48,11 @@ main section:nth-child(2) {
 	main section picture img {
 		width: 100%;
 		height: auto;
-		border: 1px solid #bbb;
+		border: 1px solid #aaa;
 	}
 }
 
-/* Desktop Views ****************************/
+/* Desktop*/
 @media only screen and (min-width: 60em) {
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
