@@ -1,0 +1,74 @@
+
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: #B8CAE0;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 2em;
+    font-family: 'Hachi Maru Pop', cursive;
+    padding: 0 1rem 0 1rem;
+}
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+header, footer {
+    background-color: #2E4057;
+    color: #FFF;
+}
+
+nav {
+	background-color: #2E4057;
+	text-align: center;
+    box-shadow: 0 2px 12px rgb(92, 88, 88);
+    border-radius: 3px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav a:hover {
+	background-color: #D4ADCF;
+    color: #083D77;
+    border-radius: 3px;
+}
+.active {
+	color: #D4ADCF;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+
+
+@media only screen and (min-width: 32.5em) {
+
+    nav ul {
+        display: flex; 
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    header{
+      flex-wrap: wrap;
+      
+    }
+    footer {
+      height: 55px;
+    }
+
+    
+  }
