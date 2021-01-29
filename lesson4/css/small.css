@@ -84,8 +84,6 @@ nav ul li a {
 .container{
     background-color: #B8CAE0;
     margin: 0 auto;
-    width: 80%
-
 }
 
 .centerContent{
@@ -132,5 +130,8 @@ footer a:hover{
         margin: 0 auto;
   width: 80%
     }
+  .container{
+    width: 80%
+  }
 
   }
