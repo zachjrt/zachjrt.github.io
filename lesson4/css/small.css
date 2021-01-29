@@ -1,0 +1,136 @@
+
+html{
+    background-color: #B8CAE0;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #2E4057; 
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+h1{
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 2.8em;
+   color: white;
+}
+h2{
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 2.8em;
+   color: white;
+  text-align: center;
+  background-color: #7F889F;
+}
+h3{
+    font-family: 'Roboto-thin', sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+#titleMoto{
+  padding-left: .5em;
+}
+img{
+    width: 11em;
+    height: 11em;
+}
+/*Navigation*/
+.active {
+	color: #F6D8AE;
+}
+nav {
+	background-color:  #888899;
+	text-align: center;
+    border-radius: 3px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav a:hover {
+	background-color: #F6D8AE;
+    color: #083D77;
+    border-radius: 3px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.switcher{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* body */
+
+.container{
+    background-color: #B8CAE0;
+    margin: 0 auto;
+    width: 80%
+
+}
+
+.centerContent{
+    text-align: center;
+}
+
+
+/* footer */
+
+footer{
+    background-color:#7F889F;
+   text-align: center;
+   color:white;
+}
+footer a{
+   color:white;
+  text-decoration:none;
+}
+footer a:hover{
+   color:#083D77;
+  text-decoration:none;
+}
+
+
+
+
+/*Large Size*/
+@media only screen and (min-width: 48em) {
+
+    nav ul {
+        display: flex; 
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    header{
+      flex-wrap: wrap;
+      
+    }
+    footer {
+      padding-top: .3em;
+      padding-bottom: .3em;
+        margin: 0 auto;
+  width: 80%
+    }
+
+  }
