@@ -1,0 +1,41 @@
+
+ /*Medium Size*/
+ @media only screen and (min-width: 32.5em) {
+
+    nav ul {
+        display: flex; 
+    }
+  
+    nav ul li {
+        flex: 1 1 100%;
+    }
+     nav ul li a{
+        font-size: 1.2em;
+    }
+  
+    footer {
+  padding-top: .3em;
+  margin: 0 auto;
+  width: 100%
+    }
+  .container{
+    width: 100%
+  }
+  h1{
+   color: white;
+  padding-top: 1em;
+  font-size: 2em;
+  }
+  h2{
+   color: white;
+  background-color: #7F889F;
+  }
+  h3{
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.2em;
+    color: white;
+  
+  }
+  .mobileMenu{
+      display:none;
+  }
