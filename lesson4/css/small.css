@@ -166,6 +166,9 @@ h3{
   color: white;
 
 }
+.mobileMenu{
+    display:none;
+}
 
 /*Large Size*/
 @media only screen and (min-width: 48em) {
