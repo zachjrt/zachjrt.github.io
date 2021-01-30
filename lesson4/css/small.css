@@ -1,110 +1,131 @@
 
 html{
-    background-color: #B8CAE0;
+  background-color: #B8CAE0;
 }
 p{
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.1em;
 }
 header{
-    display: flex;
-    flex-direction: row;
-    background-color: #2E4057; 
-    flex-wrap: wrap;
-    flex-grow: 1;
+  background-color: #2E4057; 
+height: 11em;
 }
 h1{
-    font-family: 'Hachi Maru Pop', cursive;
-    font-size: 2.8em;
-   color: white;
+font-family: 'Comfortaa', cursive;
+  font-size: 2em;
+ color: white;
+ padding-top: 1em;
 }
 h2{
-    font-family: 'Hachi Maru Pop', cursive;
-    font-size: 2.8em;
-   color: white;
-  text-align: center;
-  background-color: #7F889F;
+ font-family: 'Comfortaa', cursive;
+  font-size: 2em;
+ color: white;
+text-align: center;
+background-color: #7F889F;
 }
 h3{
-    font-family: 'Roboto-thin', sans-serif;
-    font-size: 1.5em;
-    color: white;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5em;
+  color: white;
 }
 #titleMoto{
-  padding-left: .5em;
+padding-left: .5em;
 }
 img{
-    width: 11em;
-    height: 11em;
+  width: 11em;
+  height: 11em;
+display: block;
+float: left;
+
 }
 /*Navigation*/
 .active {
-	color: #F6D8AE;
+color: #F6D8AE;
 }
 nav {
-	background-color:  #888899;
-	text-align: center;
-    border-radius: 3px;
-    width: 100%;
-    margin: 0 auto;
+background-color:  #888899;
+text-align: center;
+  border-radius: 3px;
+  width: 100%;
+  margin: 0 auto;
 }
 nav a:hover {
-	background-color: #F6D8AE;
-    color: #083D77;
-    border-radius: 3px;
+background-color: #F6D8AE;
+  color: #083D77;
+  border-radius: 3px;
 }
 
 nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
 }
 nav ul li a {
-	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-  font-size: 2em;
-  font-family: 'Roboto', sans-serif;
+display: block;
+color: #fff;
+text-align: center;
+padding: 0.75rem;
+text-decoration: none;
+font-size: 2em;
+font-family: 'Josefin Slab', serif;
 }
 
-
+.navLinks{
+  display:block;
+}
 .switcher{
-    background-color: transparent;
-    border: 0;
-    cursor: pointer;
-    display: none;
-}
+  border: 0;
+  cursor: pointer;
 
+  display: block;
+  background-color: transparent;
+}
+.hamburger{
+  width: 3.8em;
+  height: 3.8em;
+  backgroud-color: transparent;
+}
+.mobileMenu{
+  width: 100%;
+  background-color: #6F789F;
+  text-align:center;
+  display:flex;
+  justify-content: center;
+  font-size: 1em;
+}
+.menu{
+  color: white;
+  font-size: 1em;
+  font-family: 'Comfortaa', cursive;
+}
 
 /* body */
 
 .container{
-    background-color: #B8CAE0;
-    margin: 0 auto;
+  background-color: #B8CAE0;
+  margin: 0 auto;
 }
 
 .centerContent{
-    text-align: center;
+  text-align: center;
 }
 
 
 /* footer */
 
 footer{
-    background-color:#7F889F;
-   text-align: center;
-   color:white;
+  background-color:#7F889F;
+ text-align: center;
+ color:white;
 }
 footer a{
-   color:white;
-  text-decoration:none;
+ color:white;
+text-decoration:none;
 }
 footer a:hover{
-   color:#083D77;
-  text-decoration:none;
+ color:#083D77;
+text-decoration:none;
 }
 
 
@@ -113,25 +134,87 @@ footer a:hover{
 /*Large Size*/
 @media only screen and (min-width: 48em) {
 
-    nav ul {
-        display: flex; 
-    }
+  nav ul {
+      display: flex; 
+  }
 
-    nav ul li {
-        flex: 1 1 100%;
-    }
-    header{
-      flex-wrap: wrap;
-      
-    }
-    footer {
-      padding-top: .3em;
-      padding-bottom: .3em;
-        margin: 0 auto;
+  nav ul li {
+      flex: 1 1 100%;
+  }
+  header{
+
+    
+  }
+  footer {
+    padding-top: .3em;
+
+      margin: 0 auto;
+width: 80%
+  }
+.container{
   width: 80%
-    }
-  .container{
-    width: 80%
+}
+h1{
+ color: white;
+padding-top: 1em;
+font-size: 3em;
+}
+h2{
+ color: white;
+background-color: #7F889F;
+}
+h3{
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5em;
+  color: white;
+
+}
+  .switcher{
+    display:none;
+  }
+  .mobileMenu{
+  width: 100%;
+  background-color: #FFF;
+    display:none;
+}
+
+  
+  /*Medium Size*/
+@media only screen and (min-width: 32.5em) {
+
+  nav ul {
+      display: flex; 
   }
 
+  nav ul li {
+      flex: 1 1 100%;
   }
+  header{
+
+    
+  }
+  footer {
+    padding-top: .3em;
+
+      margin: 0 auto;
+width: 80%
+  }
+.container{
+  width: 80%
+}
+h1{
+ color: white;
+padding-top: 1em;
+font-size: 3em;
+}
+h2{
+ color: white;
+background-color: #7F889F;
+}
+h3{
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5em;
+  color: white;
+
+}
+  

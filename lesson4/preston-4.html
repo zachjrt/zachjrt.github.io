@@ -9,28 +9,33 @@
         content="Assignment 4 for Zachary Thompson in WDD 230: at BYUi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-   <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Josefin+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/small.css">
-    <title>Arizona Weather News</title>
+    <title>Horizon Weather News</title>
 </head>
 
 <body>
     <header class="headerContainer">
-        <picture>
             <img class="logo" src="images/icon_weather.png">
-        </picture>
+     
         <div id="titleMoto">
-            <h1>Arizona Weather News</h1>
+            <h1>Horizon Weather News</h1>
                 <h3>make plans, not excuses</h3>
         </div>
     </header>
-
+  <nav class="mobileMenu">
+ <button class="switcher" id="switcher" onClick="toggleMenu()">
+     <h5 class="menu">Menu</h5>
+    <img class="hamburger" src="images/hamNav.png">
+        </button>  
+    </nav>
     <nav>
-        <button class="switcher" id="switcher" onClick="toggleMenu()">
-        </button>
-        <ul>
+      
+     
+        <ul id= "navLinks">
             <li class="active"><a href="preston-4.html">Home</a></li>
             <li><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -63,10 +68,10 @@
 
     <footer>
         
-           <p> &copy; <span id="year"></span>| Zachary Thompson | Arizona | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
-<script src="main.js">
- </script>
- <span id="modified"></span></span>
+           Zachary Thompson | Arizona | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+            <p id="fullDate"></p>
+            <script src="js/date.js">
+            </script>
     </footer>
 </body>
 
