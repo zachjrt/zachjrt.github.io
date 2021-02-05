@@ -8,13 +8,13 @@ p{
 }
 header{
   background-color: #2E4057; 
-height: 11em;
+  padding: 1em;
 }
 h1{
 font-family: 'Comfortaa', cursive;
-  font-size: 2em;
+  font-size: 1.5em;
  color: white;
- padding-top: 1em;
+
 }
 h2{
  font-family: 'Comfortaa', cursive;
@@ -25,15 +25,15 @@ background-color: #7F889F;
 }
 h3{
   font-family: 'Josefin Slab', serif;
-  font-size: 1.5em;
+  font-size: 1em;
   color: white;
 }
 #titleMoto{
 padding-left: .5em;
 }
 img{
-  width: 11em;
-  height: 11em;
+  width: 6em;
+  height: auto;
 display: block;
 float: left;
 
@@ -41,6 +41,7 @@ float: left;
 /*Navigation*/
 .active {
 background-color: #F6D8AE;
+color: #2E4057;
 }
 nav {
 background-color:  #888899;
@@ -77,14 +78,13 @@ font-family: 'Josefin Slab', serif;
 .switcher{
   border: 0;
   cursor: pointer;
-
   display: block;
   background-color: transparent;
 }
 .hamburger{
   width: 3.8em;
   height: 3.8em;
-  backgroud-color: transparent;
+  background-color: transparent;
 }
 .mobileMenu{
   width: 100%;
@@ -100,6 +100,14 @@ font-family: 'Josefin Slab', serif;
   font-family: 'Comfortaa', cursive;
 }
 
+@media only screen and (max-width: 32.5em) {
+.mobileNo {
+  display:none;
+}
+.mobileYes {
+  display: block;
+}
+}
 /* body */
 
 .container{
@@ -108,7 +116,9 @@ font-family: 'Josefin Slab', serif;
 }
 
 .centerContent{
+  font-family: 'Comfortaa', cursive;
   text-align: center;
+  color: #2E4057;
 }
 
 

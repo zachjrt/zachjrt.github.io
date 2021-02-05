@@ -12,7 +12,11 @@
     nav ul li a{
       font-size: 2em;
   }
-  
+  img{
+    width: 11em;
+    height: auto;
+    position: absolute;
+  }
     footer {
       padding-top: .3em;
   
@@ -24,7 +28,6 @@
   }
   h1{
    color: white;
-  padding-top: 1em;
   font-size: 3em;
   }
   h2{
@@ -44,4 +47,7 @@
     width: 100%;
     background-color: #FFF;
       display:none;
+  }
+  header{
+    text-align: center;
   }

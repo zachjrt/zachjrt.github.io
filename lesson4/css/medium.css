@@ -1,6 +1,6 @@
 
  /*Medium Size*/
- @media only screen and (min-width: 32.5em) {
+ @media only screen and (min-width: 32.5em) and (max-width: 58em) {
 
     nav ul {
         display: flex; 
@@ -11,6 +11,11 @@
     }
      nav ul li a{
         font-size: 1.2em;
+    }
+
+    img{
+      width: 8em;
+      height: auto;
     }
   
     footer {
@@ -23,7 +28,6 @@
   }
   h1{
    color: white;
-  padding-top: 1em;
   font-size: 2em;
   }
   h2{
@@ -34,6 +38,7 @@
     font-family: 'Josefin Slab', serif;
     font-size: 1.2em;
     color: white;
+
   
   }
   .mobileMenu{

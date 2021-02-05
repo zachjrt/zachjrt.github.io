@@ -13,9 +13,9 @@ document.getElementById("fullDate").innerHTML = daylist[day] + ", " + date + " "
 
 function toggleMenu() {
   var x = document.getElementById("navLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  if (x.className === "mobileNo") {
+    x.className = "mobileYes";
   } else {
-    x.style.display = "block";
+    x.className = "mobileNo";
   }
 }
