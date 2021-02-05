@@ -1,0 +1,53 @@
+
+/*Large Size*/
+@media only screen and (min-width: 58em) {
+
+    nav ul {
+        display: flex; 
+    }
+  
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    nav ul li a{
+      font-size: 2em;
+  }
+  img{
+    width: 11em;
+    height: auto;
+    position: absolute;
+  }
+    footer {
+      padding-top: .3em;
+  
+        margin: 0 auto;
+  width: 80%
+    }
+  .container{
+    width: 80%
+  }
+  h1{
+   color: white;
+  font-size: 3em;
+  }
+  h2{
+   color: white;
+  background-color: #7F889F;
+  }
+  h3{
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    color: white;
+  
+  }
+    .switcher{
+      display:none;
+    }
+    .mobileMenu{
+    width: 100%;
+    background-color: #FFF;
+      display:none;
+  }
+  header{
+    text-align: center;
+  }
