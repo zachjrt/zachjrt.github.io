@@ -42,8 +42,10 @@ float: left;
 .imageBanner{
   width: 100%;
   height: auto;
+  overflow: hidden;
 display: block;
 float: left;
+position: relative;
 }
 /*Navigation*/
 .active {
@@ -106,12 +108,22 @@ font-family: 'Josefin Slab', serif;
   font-family: 'Comfortaa', cursive;
 }
 
+
 @media only screen and (max-width: 32.5em) {
 .mobileNo {
   display:none;
 }
 .mobileYes {
   display: block;
+}
+.heroDiv{
+  position: absolute;
+  border-radius: 5px;
+    background-color: rgba(0,0,0,0.7);
+    max-width: 50%;
+    left: 5%;
+    padding: 5px;
+    color: white;
 }
 }
 /* body */

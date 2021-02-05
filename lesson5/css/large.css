@@ -23,6 +23,7 @@
         margin: 0 auto;
   width: 80%
     }
+
   .container{
     width: 80%
   }
@@ -39,6 +40,17 @@
     font-size: 1.5em;
     color: white;
   
+  }
+
+  .heroDiv{
+    position: absolute;
+    border-radius: 5px;
+      background-color: rgba(0,0,0,0.7);
+      max-width: 25%;
+      top: 45%;
+      left: 15%;
+      padding: 5px;
+      color: white;
   }
     .switcher{
       display:none;
