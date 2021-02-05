@@ -38,6 +38,13 @@ display: block;
 float: left;
 
 }
+
+.imageBanner{
+  width: 100%;
+  height: auto;
+display: block;
+float: left;
+}
 /*Navigation*/
 .active {
 background-color: #4E6077;
