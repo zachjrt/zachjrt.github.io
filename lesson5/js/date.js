@@ -10,6 +10,13 @@ var monthlist = ["January","February","March","April ","May","June","July", "Aug
 
 document.getElementById("fullDate").innerHTML = daylist[day] + ", " + date + " " + monthlist[month] + " " + year;
 
+if (daylist[day] == "Friday") {
+  document.getElementById("announcement").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
+} else {
+  document.getElementById("announcement").innerHTML = "xx";
+}
+
+
 
 function toggleMenu() {
   var x = document.getElementById("navLinks");
@@ -19,3 +26,6 @@ function toggleMenu() {
     x.className = "mobileNo";
   }
 }
+
+
+ 
