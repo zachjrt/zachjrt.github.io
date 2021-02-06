@@ -85,5 +85,7 @@
     .contact-info {
       grid-column: 2/3;
       grid-row: 1;
+      margin: auto;
+    width: 700px;
     }
 }
