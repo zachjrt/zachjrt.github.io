@@ -13,7 +13,7 @@ document.getElementById("fullDate").innerHTML = daylist[day] + ", " + date + " "
 if (daylist[day] == "Friday") {
   document.getElementById("announcement").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
 } else {
-  document.getElementById("announcement").innerHTML = "xx";
+  document.getElementById("announcement").innerHTML = "";
 }
 
 

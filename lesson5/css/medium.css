@@ -46,10 +46,29 @@
   .heroDiv{
     position: absolute;
     border-radius: 5px;
-      background-color: rgba(0,0,0,0.7);
+    background-color: rgba(30,30,30,0.9);
       width: 15em;
-      top: 35%;
+      top: 40%;
       left: 5%;
       padding: 5px;
       color: white;
   }
+  #forecast{
+    width:520px;
+  }
+  .weather{
+    width:100px;
+    }
+
+    
+    #map {
+      grid-column: 1/2;
+      grid-row: 1;
+      height: 250px;
+    }
+    
+    .contact-info {
+      grid-column: 2/3;
+      grid-row: 1;
+    }
+}

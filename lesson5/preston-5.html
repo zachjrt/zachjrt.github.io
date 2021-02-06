@@ -19,6 +19,7 @@
 
 <body>
     <header class="headerContainer">
+        <div id="announcement"></div>
             <img class="logo" alt="Horizon Weather" src="images/icon_weather.png">
      
         <div id="titleMoto">
@@ -51,25 +52,68 @@
         
         <img class = "imageBanner" alt="hero" src="images/hero.png">
         <p class="heroDiv">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <section class="centerContent">
-            <h3 class="centerContent">Hero w/ weather summary</h3>
-            <p>Hero w/ weather summary</p>
-        </section>
     
-        <section class="centerContent">
-            <h3 class="centerContent">5 day weather forecast</h3>
-            <p>5 day weather forecast</p>
+        <section id="forecastHeader" class="centerContent">
+            <h2 class="centerContent">5 day weather forecast</h2>
+            <table id="forecast">
+            <thead>
+                <tr>
+                    <th id="day1">Mon</th>
+                    <th id="day2">Tue</th>
+                    <th id="day3">Wed</th>
+                    <th id="day4">Thu</th>
+                    <th id="day5">Fri</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td><img class="weather" alt="Horizon Weather" src="images/icon_weather.png"><span id="temp1">69 °F</span></td>
+            <td><img class="weather" alt="Horizon Weather" src="images/icon_weather.png"><span id="temp2">68 °F</span></td> 
+            <td><img class="weather" alt="Horizon Weather" src="images/icon_weather.png"><span id="temp3">65 °F</span></td> 
+            <td><img class="weather" alt="Horizon Weather" src="images/icon_weather.png"><span id="temp4">72 °F</span></td> 
+            <td><img class="weather" alt="Horizon Weather" src="images/icon_weather.png"><span id="temp5">68 °F</span></td>        
+            </tr>
+            </tbody>
+            </table>
         </section>
        
         <section class="centerContent">
-            <h3 class="centerContent">Article</h3>
-            <p>Article</p>
+            <h2 class="centerContent">Article</h2>
+            <img class="articlePicture" src="images/wind.jpg" alt="Windy Day">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur 
+                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non 
+                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing 
+                 elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, 
+                 sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                 ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident,
+                 sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur
+                   sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </section>
         
-        <section class="centerContent">
-            <h3 class="centerContent">Contact Information</h3>
-            <p>Contact Information</p>
-        </section>
+        <h2 class="centerContent">Contact Information</h2>
+       
+            <div class="contact-grid">
+                <section class="contact-info">
+                  <h3>Contact Information</h3>
+                  <p><strong>Idaho Weather Place</strong></p>
+                  <p><i style="font-size:20px" class="fa">&#xf041;</i> 30 N 1st E</p>
+                  <p>Preston, ID 83263</p>
+                  <p><i style="font-size:20px" class="fa">&#xf095;</i> 916-999-8888</p>
+                  <p><i style="font-size:20px" class="fa">&#xf0e0;</i> info@idahoweather.com</p>
+                  <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="images/facebook.png" alt="Facebook icon"></a>
+              <a class="socialmedia" target="_blank" href="https://www.instagram.com"><img class="icon" src="images/instagram.png" alt="Instagram icon"></a>
+              <a class="socialmedia" target="_blank" href="https://www.twitter.com"><img class="icon" src="images/twitter-logo.png" alt="Twitter icon"></a>
+                </section>
+                <iframe id="map" src="https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sPreston+Idaho!6i13"></iframe>
+                <a href="https://www.embedgooglemap.net/"></a>
+              </div>
+    
     </main>
 
     <footer>

@@ -36,9 +36,24 @@ img{
   height: auto;
 display: block;
 float: left;
-
 }
-
+.articlePicture{
+  width: 15em;
+  padding: 1em;
+}
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+#announcement{
+  font-family: 'Josefin Slab', serif; 
+  color: white;
+}
+#forecast{
+  margin: auto;
+}
 .imageBanner{
   width: 100%;
   height: auto;
@@ -107,9 +122,21 @@ font-family: 'Josefin Slab', serif;
   font-size: 1em;
   font-family: 'Comfortaa', cursive;
 }
-
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
 
 @media only screen and (max-width: 32.5em) {
+  #forecastHeader{
+    display:none;
+  }
+  .articlePicture{
+    width: 100%;
+    padding: 0em;
+    padding-bottom: 2em;
+  }
 .mobileNo {
   display:none;
 }
@@ -119,11 +146,14 @@ font-family: 'Josefin Slab', serif;
 .heroDiv{
   position: absolute;
   border-radius: 5px;
-    background-color: rgba(0,0,0,0.7);
-    max-width: 50%;
+    background-color: rgba(30,30,30,0.9);
+    max-width: 12em;
     left: 5%;
     padding: 5px;
     color: white;
+}
+#forecast{
+  display:none;
 }
 }
 /* body */
@@ -138,9 +168,30 @@ font-family: 'Josefin Slab', serif;
   text-align: center;
   color: #2E4057;
 }
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 15px;
+  padding: 15px;
+}
 
+#map {
+  margin: auto;
+  grid-column: 1;
+  text-align: center;
+}
+
+.contact-info {
+  grid-column: 1;
+  margin: auto;
+  text-align: center;
+}
 
 /* footer */
+
+#contact{
+  float:left;
+}
 
 footer{
   background-color:#7F889F;
