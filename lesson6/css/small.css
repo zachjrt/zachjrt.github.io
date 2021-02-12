@@ -172,7 +172,8 @@ tbody {
 .centerContent{
   font-family: 'Comfortaa', cursive;
   text-align: center;
-  color: #2E4057;
+  color: white;
+  background-color: #424242;
 }
 .contact-grid {
   display: grid;
