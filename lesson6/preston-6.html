@@ -50,9 +50,19 @@
 
         <h2>Preston Idaho</h2>
         
-        <img class = "imageBanner" alt="hero" src="images/hero.png">
-        <p class="heroDiv">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    
+        <picture>
+            <source class="large" srcset="images/large_Hero.jpg" media="(min-width: 58em)">
+            <source class="medium" srcset="images/medium_Hero.jpg" media="(min-width: 32.5em) and (max-width: 58em)">
+            <img class = "imageBanner" src="images/small_Hero.jpg" alt="Landscape picture">
+        </picture>
+        <div class="heroDiv">
+            <p>Currently: Cloudy</p>
+            <p>High: <span id="temp">42</span>°F</p>
+            <p>Wind Chill: <span id="chill"></span>°F</p>
+            <p>Humidity: 17%</p>
+            <p>Wind Speed: <span id="speed">15</span>mph</p>
+              </div>
+
         <section id="forecastHeader" class="centerContent">
             <h2 class="centerContent">5 day weather forecast</h2>
             <table id="forecast">
@@ -94,6 +104,7 @@
                   tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
                   mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur
                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
         </section>
         
         <h2 class="centerContent">Contact Information</h2>
@@ -118,10 +129,13 @@
 
     <footer>
         
-           Zachary Thompson | Arizona | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        &copy; <span id="year"></span> | Zachary Thompson | Arizona | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
             <p id="fullDate"></p>
             <script src="js/date.js">
             </script>
+            <script src="js/windchill.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script src="js/webfontload.js"></script>
     </footer>
 </body>
 
