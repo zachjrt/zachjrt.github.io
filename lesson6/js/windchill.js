@@ -10,7 +10,3 @@ if (temperature <= 50 && windspeed > 3) {
 }
 document.getElementById('chill').innerHTML = windchill;
 
-const thisYear = new Date();
-let year = thisYear.getFullYear();
-document.getElementById("year").textContent = year;
-
