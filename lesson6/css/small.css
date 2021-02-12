@@ -131,35 +131,6 @@ tbody {
   vertical-align: middle;
   border-color: inherit;
 }
-
-@media only screen and (max-width: 32.5em) {
-  #forecastHeader{
-    display:none;
-  }
-  .articlePicture{
-    width: 100%;
-    padding: 0em;
-    padding-bottom: 2em;
-  }
-.mobileNo {
-  display:none;
-}
-.mobileYes {
-  display: block;
-}
-.heroDiv{
-  position: absolute;
-  border-radius: 5px;
-    background-color: rgba(30,30,30,0.9);
-    max-width: 12em;
-    left: 5%;
-    padding: 5px;
-    color: white;
-}
-#forecast{
-  display:none;
-}
-}
 /* body */
 .socialicon{
   width:3em;
@@ -172,6 +143,9 @@ tbody {
 .centerContent{
   font-family: 'Comfortaa', cursive;
   text-align: center;
+  color: #2E4057;
+}
+.centerContent h2{
   color: white;
   background-color: #424242;
 }
@@ -219,7 +193,34 @@ text-decoration:none;
   display: none;
 }
 
-
+@media only screen and (max-width: 32.5em) {
+  #forecastHeader{
+    display:none;
+  }
+  .articlePicture{
+    width: 100%;
+    padding: 0em;
+    padding-bottom: 2em;
+  }
+.mobileNo {
+  display:none;
+}
+.mobileYes {
+  display: block;
+}
+.heroDiv{
+  position: absolute;
+  border-radius: 5px;
+    background-color: rgba(30,30,30,0.9);
+    max-width: 12em;
+    left: 5%;
+    padding: 5px;
+    color: white;
+}
+#forecast{
+  display:none;
+}
+}
   
  
   
