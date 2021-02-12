@@ -1,153 +1,178 @@
-
-html{
+html {
   background-color: #B8CAE0;
 }
-p{
+
+p {
   font-family: 'Josefin Slab', serif;
   font-size: 1.1em;
 }
-header{
-  background-color: #2E4057; 
+
+header {
+  background-color: #2E4057;
   padding: 1em;
 }
-h1{
-font-family: 'Comfortaa', cursive;
+
+h1 {
+  font-family: 'Comfortaa', cursive;
   font-size: 1.5em;
- color: white;
+  color: white;
 
 }
-h2{
- font-family: 'Comfortaa', cursive;
+
+h2 {
+  font-family: 'Comfortaa', cursive;
   font-size: 2em;
- color: white;
-text-align: center;
-background-color: #424242;
+  color: white;
+  text-align: center;
+  background-color: #424242;
 }
-h3{
+
+h3 {
   font-family: 'Josefin Slab', serif;
   font-size: 1em;
   color: white;
 }
-#titleMoto{
-padding-left: .5em;
+
+#titleMoto {
+  padding-left: .5em;
 }
-img{
+
+img {
   width: 6em;
   height: auto;
-display: block;
-float: left;
+  display: block;
+  float: left;
 }
-.articlePicture{
+
+.articlePicture {
   width: 15em;
   padding: 1em;
 }
-.heroDiv p{
-    line-height: .7;
-    font-size: 1em;
-  }
+
+.heroDiv p {
+  line-height: .7;
+  font-size: 1em;
+}
+
 th {
   display: table-cell;
   vertical-align: inherit;
   font-weight: bold;
   text-align: -internal-center;
 }
-#announcement{
-  font-family: 'Josefin Slab', serif; 
+
+#announcement {
+  font-family: 'Josefin Slab', serif;
   color: white;
 }
-#forecast{
+
+#forecast {
   margin: auto;
 }
-.imageBanner{
+
+.imageBanner {
   width: 100%;
   height: auto;
   overflow: hidden;
-display: block;
-float: left;
-position: relative;
+  display: block;
+  float: left;
+  position: relative;
 }
+
 /*Navigation*/
 .active {
-background-color: #4E6077;
+  background-color: #4E6077;
 }
+
 nav {
-background-color:  #888899;
-text-align: center;
+  background-color: #888899;
+  text-align: center;
   border-radius: 3px;
   width: 100%;
   margin: 0 auto;
 }
+
 nav a:hover {
-background-color: #F6D8AE;
+  background-color: #F6D8AE;
   color: #083D77;
   border-radius: 3px;
 }
 
 nav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-}
-nav ul li a {
-display: block;
-color: #fff;
-text-align: center;
-padding: 0.75rem;
-text-decoration: none;
-font-size: 2em;
-font-family: 'Josefin Slab', serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-.navLinks{
-  display:block;
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Josefin Slab', serif;
 }
-.switcher{
+
+.navLinks {
+  display: block;
+}
+
+.switcher {
   border: 0;
   cursor: pointer;
   display: block;
   background-color: transparent;
 }
-.hamburger{
+
+.hamburger {
   width: 3.8em;
   height: 3.8em;
   background-color: transparent;
 }
-.mobileMenu{
+
+.mobileMenu {
   width: 100%;
   background-color: #6F789F;
-  text-align:center;
-  display:flex;
+  text-align: center;
+  display: flex;
   justify-content: center;
   font-size: 1em;
 }
-.menu{
+
+.menu {
   color: white;
   font-size: 1em;
   font-family: 'Comfortaa', cursive;
 }
+
 tbody {
   display: table-row-group;
   vertical-align: middle;
   border-color: inherit;
 }
+
 /* body */
-.socialicon{
-  width:3em;
+.socialicon {
+  width: 3em;
 }
-.container{
+
+.container {
   background-color: #B8CAE0;
   margin: 0 auto;
 }
 
-.centerContent{
+.centerContent {
   font-family: 'Comfortaa', cursive;
   text-align: center;
 }
-.centerContent h2{
+
+.centerContent h2 {
   color: white;
   background-color: #424242;
 }
+
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -171,55 +196,63 @@ tbody {
 
 /* footer */
 
-#contact{
-  float:left;
+#contact {
+  float: left;
 }
 
-footer{
+footer {
   background-color: #424242;
- text-align: center;
- color:white;
+  text-align: center;
+  color: white;
 }
-footer a{
- color:white;
-text-decoration:none;
+
+footer a {
+  color: white;
+  text-decoration: none;
 }
-footer a:hover{
- color:#083D77;
-text-decoration:none;
+
+footer a:hover {
+  color: #083D77;
+  text-decoration: none;
 }
-.none{
+
+.none {
   display: none;
 }
 
+/*************/
+/* Small CSS */
+/*************/
 @media only screen and (max-width: 32.5em) {
-  #forecastHeader{
-    display:none;
+  #forecastHeader {
+    display: none;
   }
-  .articlePicture{
+
+  .articlePicture {
     width: 100%;
     padding: 0em;
     padding-bottom: 2em;
   }
-.mobileNo {
-  display:none;
-}
-.mobileYes {
-  display: block;
-}
-.heroDiv{
-  position: absolute;
-  border-radius: 5px;
-    background-color: rgba(30,30,30,0.9);
+
+  .mobileNo {
+    display: none;
+  }
+
+  .mobileYes {
+    display: block;
+  }
+
+  .heroDiv {
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgba(30, 30, 30, 0.9);
     max-width: 12em;
     left: 5%;
     padding: 5px;
     color: white;
+  }
+
+  #forecast {
+    display: none;
+  }
 }
-#forecast{
-  display:none;
-}
-}
-  
- 
-  

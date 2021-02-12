@@ -1,7 +1,7 @@
 WebFont.load({
-    google: {
-      families: [
+  google: {
+    families: [
       'Comfortaa', 'Josefin Slab'
-      ]
-    }
-  });
+    ]
+  }
+});
