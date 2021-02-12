@@ -76,13 +76,13 @@
       grid-column: 1/2;
       grid-row: 1;
       height: 300px;
-      width:500px;
+      width:300px;
     }
     
     .contact-info {
       grid-column: 2/3;
       grid-row: 1;
       margin: auto;
-    width: 700px;
+    width: 80%;
     }
 }

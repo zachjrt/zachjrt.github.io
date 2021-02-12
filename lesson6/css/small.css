@@ -143,7 +143,6 @@ tbody {
 .centerContent{
   font-family: 'Comfortaa', cursive;
   text-align: center;
-  color: #2E4057;
 }
 .centerContent h2{
   color: white;
@@ -177,7 +176,7 @@ tbody {
 }
 
 footer{
-  background-color:#7F889F;
+  background-color: #424242;
  text-align: center;
  color:white;
 }
