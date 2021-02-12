@@ -21,7 +21,7 @@ h2{
   font-size: 2em;
  color: white;
 text-align: center;
-background-color: #7F889F;
+background-color: #424242;
 }
 h3{
   font-family: 'Josefin Slab', serif;
@@ -41,6 +41,10 @@ float: left;
   width: 15em;
   padding: 1em;
 }
+.heroDiv p{
+    line-height: .7;
+    font-size: 1em;
+  }
 th {
   display: table-cell;
   vertical-align: inherit;
@@ -181,7 +185,7 @@ tbody {
   margin: auto;
   grid-column: 1;
   text-align: center;
-  width: 300px;
+  width: 200px;
   height: 300px;
 }
 
