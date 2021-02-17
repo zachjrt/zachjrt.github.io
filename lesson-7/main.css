@@ -38,9 +38,9 @@ h3 {
 }
 
 img {
- filter: blur(0em);
- transition: filter 0.5s;;
-}
+  filter: blur(0em);
+  transition: filter 0.5s;;
+ }
 
 .articlePicture {
   width: 15em;
@@ -50,6 +50,10 @@ img {
 .heroDiv p {
   line-height: .7;
   font-size: 1em;
+}
+
+table {
+  margin: auto;
 }
 
 th {
