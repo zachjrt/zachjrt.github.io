@@ -2,21 +2,25 @@ html {
   background-color: #B8CAE0;
 }
 
+  body {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+}
+
 p {
   font-family: 'Josefin Slab', serif;
   font-size: 1.1em;
 }
 
-header {
-  background-color: #2E4057;
-  padding: 1em;
-}
 
 h1 {
   font-family: 'Comfortaa', cursive;
   font-size: 1.5em;
-  color: white;
 
+}
+picture {
+  display: block;
 }
 
 h2 {
