@@ -13,7 +13,7 @@
     font-size: 2em;
   }
 
-  img {
+  .logo {
     width: 11em;
     height: auto;
   }
@@ -26,6 +26,7 @@
 
   .logo {
     position: absolute;
+    left: 5%;
   }
 
   .container {
