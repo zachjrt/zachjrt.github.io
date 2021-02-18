@@ -13,11 +13,6 @@
     font-size: 2em;
   }
 
-  .logo {
-    width: 11em;
-    height: auto;
-  }
-
   footer {
     padding-top: .3em;
     margin: 0 auto;
@@ -25,8 +20,10 @@
   }
 
   .logo {
+    width: 11em;
+    height: auto;
     position: absolute;
-    left: 5%;
+    left: 2%;
   }
 
   .container {
