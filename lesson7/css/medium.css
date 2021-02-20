@@ -17,6 +17,7 @@
     width: 8em;
     height: auto;
   }
+  .gallery { grid-template-columns: repeat(2, 1fr); }
 
   footer {
     padding-top: .3em;

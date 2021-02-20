@@ -231,6 +231,11 @@ footer a:hover {
     display: none;
   }
 
+  .gallery {
+    display: grid;
+    grid-gap: 1rem;
+  }
+
   .articlePicture {
     width: 100%;
     padding: 0em;
