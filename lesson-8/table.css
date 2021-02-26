@@ -1,0 +1,62 @@
+
+
+#plannedThing{
+    font-style: italic;
+}
+em{
+    font-size: 20px;
+}
+
+table{
+    font-family: ubuntu, sans-serif;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    box-shadow: 5px 12px 12px #628ca6;
+    margin-top: 50px;
+    background-color: #ffffff;
+    max-width: 100%;
+    margin:auto;
+
+}
+table thead th{
+    padding: 12px;
+    font-size: 35px;
+
+}
+
+table tbody th{
+    font-size: 20px;
+    padding:12px;
+    color: #ffffff;
+    background-color: #628ca6;
+    border: 1px solid rgb(160, 160, 160);
+}
+table tbody td{
+    text-align: center;
+    font-size: 20px;
+    padding:12px;
+    border: 1px solid rgb(160, 160, 160);
+}
+
+table tbody tr{
+    background-color: #e7f0ed;
+}
+table tbody tr:nth-child(odd){
+    background-color: #e7ffed;
+}
+table thead{
+    background-color: #7fb9c2;
+}
+table tfoot{
+    background-color: #7fb9c2;
+}
+
+table tfoot td{
+    padding:12px;
+    text-align: center;
+}
+
+
+.strong{
+    background-color: #628ca6;
+}
