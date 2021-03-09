@@ -30,7 +30,7 @@
     grid-template-rows: repeat(3, 33%);
 }
 
-.cards section:nth-child(1) img{
+.cards section:nth-child(3) img{
   float: left;
   margin-left: 5%;
 }
@@ -42,7 +42,7 @@
   margin-left: 20px;
 }
 
-.cards section:nth-child(1) div{
+.cards section:nth-child(3) div{
     float: right;
     margin-right: 5%;
 }
