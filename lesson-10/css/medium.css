@@ -1,0 +1,115 @@
+/*Medium Size*/
+@media only screen and (min-width: 32.5em) and (max-width: 58em) {
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
+  }
+
+  nav ul li a {
+    font-size: 1.2em;
+  }
+
+  .logo {
+    width: 8em;
+    height: auto;
+  }
+  .gallery { grid-template-columns: repeat(2, 1fr); }
+
+  footer {
+    padding-top: .3em;
+    margin: 0 auto;
+    width: 100%
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 33%);
+}
+
+.cards section:nth-child(3) img{
+  float: left;
+  margin-left: 5%;
+}
+
+.cards section div{
+  float: left;
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 20px;
+}
+
+.cards section:nth-child(3) div{
+    float: right;
+    margin-right: 5%;
+}
+
+
+
+
+.cards img{
+    float: right;
+    width: 40%;
+    height: 70%;
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-left: 10%;
+}
+
+  .container {
+    width: 100%
+  }
+
+  h1 {
+    color: white;
+    font-size: 2em;
+  }
+
+  h3 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.2em;
+    color: white;
+
+  }
+
+  .mobileMenu {
+    display: none;
+  }
+
+  .heroDiv {
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgba(30, 30, 30, 0.9);
+    width: 15em;
+    top: 40%;
+    left: 5%;
+    padding: 5px;
+    color: white;
+  }
+
+  #forecast {
+    width: 520px;
+  }
+
+  .weather {
+    width: 100px;
+  }
+
+
+  #map {
+    grid-column: 1/2;
+    grid-row: 1;
+    height: 300px;
+    width: 300px;
+  }
+
+  .contact-info {
+    grid-column: 2/3;
+    grid-row: 1;
+    margin: auto;
+    width: 60%;
+  }
+}

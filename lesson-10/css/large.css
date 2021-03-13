@@ -1,0 +1,107 @@
+/*Large Size*/
+@media only screen and (min-width: 58em) {
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(3, 1fr); 
+   }
+
+  nav ul li a {
+    font-size: 2em;
+  }
+
+  footer {
+    padding-top: .3em;
+    margin: 0 auto;
+    width: 80%
+  }
+
+  .logo {
+    width: 11em;
+    height: auto;
+    position: absolute;
+    left: 2%;
+  }
+
+  
+.gallery picture:hover{
+  box-shadow: 8px 8px 10px 2px rgba(0, 0, 0, 0.301);
+
+}
+
+  .container {
+    width: 80%
+  }
+
+  h1 {
+    color: white;
+    font-size: 3em;
+  }
+
+  h3 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    color: white;
+
+  }
+
+  .heroDiv {
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgba(30, 30, 30, 0.9);
+    max-width: 20em;
+    top: 45%;
+    left: 15%;
+    padding: 5px;
+    color: white;
+  }
+
+  .switcher {
+    display: none;
+  }
+
+  .mobileMenu {
+    width: 100%;
+    background-color: #FFF;
+    display: none;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  #forecast {
+    width: 725px;
+  }
+
+  .weather {
+    width: 130px;
+    height: auto;
+  }
+
+  td {
+    width: 140px;
+  }
+
+
+  #map {
+    grid-column: 1/2;
+    grid-row: 1;
+    height: 300px;
+    width: 300px;
+  }
+
+  .contact-info {
+    grid-column: 2/3;
+    grid-row: 1;
+    margin: auto;
+    width: 80%;
+  }
+}
