@@ -304,10 +304,10 @@ picture-img[data-src]{
   color: #FFF;
   background-color: #4E6077;
   font-family: 'Josefin Slab', serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
   padding: 2em;
   border: 3px solid #424242;
-  border-radius: 5px;
+  border-radius: 3px;
   
   } 
 
@@ -323,7 +323,7 @@ picture-img[data-src]{
     color: #FFF;
     gap: 1em;
     font-family: 'Comfortaa', cursive;
-    margin: 2em;
+    margin: auto;
     font-weight: bold;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
