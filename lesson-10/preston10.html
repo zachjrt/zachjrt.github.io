@@ -54,11 +54,11 @@
             <img class="imageBanner" src="images/small_Hero.jpg" alt="Landscape picture">
         </picture>
         <div class="heroDiv">
-            <p>Currently: Cloudy</p>
+            <p>Currently: <span id="currently"></span></p>
             <p>High: <span id="temp">42</span>°F</p>
-            <p>Wind Chill: <span id="chill"></span>°F</p>
-            <p>Humidity: 17%</p>
-            <p>Wind Speed: <span id="speed">15</span>mph</p>
+            <p>Wind Chill: <span id="chill">error</span></p>
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Wind Speed: <span id="speed"></span>mph</p>
         </div>
 
         <section id="forecastHeader" class="centerContent">
@@ -163,7 +163,7 @@
     <footer>
 
        <p> &copy; <span id="year">2021</span> | Zachary Thompson | Arizona | <a href="http://www.byui.edu/online">BYU-Idaho
-            Online Learning</a> </p>
+            Online Learning</a> | Weather Data provided by <a href="https://openweathermap.org/">OpenWeatherMap</a> </p>
         <p id="fullDate"></p>
         <script src="js/date.js">
         </script>
