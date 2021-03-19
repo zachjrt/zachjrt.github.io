@@ -10,6 +10,7 @@ fetch(apiURL)
    document.getElementById('temp').innerHTML = Math.round(town.main.temp);
    document.getElementById('humidity').innerHTML = town.main.humidity;
    document.getElementById('speed').innerHTML = Math.round(town.wind.speed);
+   windchill();
 });
 
 
