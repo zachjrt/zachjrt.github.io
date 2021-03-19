@@ -13,6 +13,7 @@ fetch(apiURL)
 });
 
 
+function windchill() {
 
 const temperature = document.getElementById('temp').innerHTML;
 const windspeed = document.getElementById('speed').innerHTML;
@@ -26,3 +27,4 @@ if (temperature <= 50 && windspeed > 3) {
 }
 document.getElementById('chill').innerHTML = windchill;
 
+}
