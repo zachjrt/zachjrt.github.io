@@ -1,0 +1,447 @@
+html {
+  background-color: #B8CAE0;
+}
+
+p {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.1em;
+}
+
+header {
+  background-color: #2E4057;
+  padding: 1em;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.5em;
+  color: white;
+
+}
+
+h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  background-color: #424242;
+}
+.stormcenter form label{
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  background-color: white;
+  max-width: 800px;
+  border: solid 1px black;
+  border-radius: 3px;
+  grid-row: 1/2;
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-self: center;
+  align-items: center;
+  grid-gap: 10px;
+}
+.stormcenter form {
+  margin: 3em;
+    border: 2px solid black;
+    padding: 2em;
+    max-width: 850px;
+  
+}
+form {
+    background-color: white;
+    margin: 0 auto;
+    text-align: left;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.2rem;
+    display: grid;
+    border-top: unset;
+
+}
+h3 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1em;
+  color: white;
+}
+
+h5 {
+  font-family: 'Josefin Slab', serif;
+}
+
+#titleMoto {
+  padding-left: .5em;
+}
+
+img {
+ filter: blur(0em);
+ transition: filter 0.5s;;
+}
+.logo{
+  width: 6em;
+  height: auto;
+  float: left;
+}
+
+.articlePicture {
+  width: 15em;
+  padding: 1em;
+}
+
+.heroDiv p {
+  line-height: .7;
+  font-size: 1em;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+
+#announcement {
+  font-family: 'Josefin Slab', serif;
+  color: white;
+}
+
+#forecast {
+  margin: auto;
+}
+
+.imageBanner {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  float: left;
+  position: relative;
+}
+
+.cards h2, .cards  h5, .cards  p{
+  text-align: center;
+  color: #fff
+}
+
+.cards h2{
+  background-color: #2E4057;
+  border-radius: 3px;
+}
+
+.cards section div{
+  margin: 10px auto;
+  width: 70%;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  padding: 20px;
+  gap: 10px;
+}
+.cards section{
+  background-color:#4E6077;
+}
+
+.cards section:nth-child(2) {
+  order: -1;
+}
+.cards section:nth-child(3) {
+  order: -1;
+}
+
+.cards img{
+  margin-top: 5%;
+  box-shadow: 0px 0px 5px #879ebd;
+  width: 70%;
+  margin-left: 15%;
+
+}
+
+
+/*Navigation*/
+.active {
+  background-color: #4E6077;
+}
+
+nav {
+  background-color: #888899;
+  text-align: center;
+  border-radius: 3px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav a:hover {
+  background-color: #F6D8AE;
+  color: #083D77;
+  border-radius: 3px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Josefin Slab', serif;
+}
+
+.navLinks {
+  display: block;
+}
+
+.switcher {
+  border: 0;
+  cursor: pointer;
+  display: block;
+  background-color: transparent;
+}
+
+.hamburger {
+  width: 3.8em;
+  height: 3.8em;
+  background-color: transparent;
+}
+
+.mobileMenu {
+  width: 100%;
+  background-color: #6F789F;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+}
+
+.menu {
+  color: white;
+  font-size: 1em;
+  font-family: 'Comfortaa', cursive;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+picture-img[data-src]{
+  filter: blur(0.2em);
+  }
+.gallery picture img{
+   filter: blur(0em);
+   transition: filter 0.5s;
+   width: 100%;
+  }
+.gallery {
+  display: grid;
+  grid-gap: 2rem;
+  justify-items: center;
+  padding: 1rem;
+}
+
+
+
+.gallery picture{
+  float: right;
+  width: 100%;
+  background-color: #555;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 8px;
+}
+
+
+
+
+/* body */
+.socialicon {
+  width: 3em;
+}
+
+.container {
+  background-color: #B8CAE0;
+  margin: 0 auto;
+}
+
+.centerContent {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+.centerContent h2 {
+  color: white;
+  background-color: #424242;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 15px;
+  padding: 15px;
+}
+
+.contact-info {
+  grid-column: 1;
+  margin: auto;
+  text-align: center;
+}
+.forecastdays {
+  color: #FFF;
+  background-color: #4E6077;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.3em;
+  padding: 2em;
+  border: 3px solid #424242;
+  border-radius: 3px;
+  
+  } 
+
+#map {
+  margin: auto;
+  grid-column: 1;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+}
+
+  #weekly-forecast {
+    color: #FFF;
+    gap: 1em;
+    font-family: 'Comfortaa', cursive;
+    margin: auto;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    
+  }
+
+/* footer */
+
+#contact {
+  float: left;
+}
+
+footer {
+  background-color: #424242;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #083D77;
+  text-decoration: none;
+}
+
+.none {
+  display: none;
+}
+
+/*************/
+/* Small CSS */
+/*************/
+@media only screen and (max-width: 32.5em) {
+  #forecastHeader {
+    display: none;
+  }
+
+  .gallery {
+    display: grid;
+    grid-gap: 1rem;
+  }
+
+  .articlePicture {
+    width: 100%;
+    padding: 0em;
+    padding-bottom: 2em;
+  }
+  .stormcenter form label{
+
+    grid-row: 1;
+    grid-column: 1;
+
+  }
+  .stormcenter form{
+    max-width: 500px;
+  }
+
+  .mobileNo {
+    display: none;
+  }
+
+  .mobileYes {
+    display: block;
+  }
+
+  .heroDiv {
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgba(30, 30, 30, 0.9);
+    max-width: 12em;
+    left: 5%;
+    padding: 5px;
+    color: white;
+  }
+
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 33%);
+    margin: 10px;
+}
+
+
+
+.cards img{
+    margin-top: 2%;
+    margin-left: 12%;
+    float: none;
+    width: 70%;
+    height: 40%;
+}
+.cards h2{
+  background-color: rgba(30, 30, 30, 0);
+}
+.cards section:nth-child(3) div{
+  float: none;
+  margin-right:0;
+}
+
+.cards section:nth-child(3) img{
+  float: none;
+  margin-left: 12%;
+}
+.cards section div{
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+  #forecast {
+    display: none;
+  }
+}
