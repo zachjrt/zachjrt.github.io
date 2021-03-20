@@ -250,7 +250,21 @@ picture-img[data-src]{
   padding: 1rem;
 }
 
+.events{
+  background-color: #6F789F;
+  color: #FFF;
+  width: 30%;
+  margin:auto;
+  border: 3px solid #424242;
+}
 
+.events p{
+  padding-left: 5px;
+}
+.events h3{
+  background-color: #4e6077;
+  text-align: center;
+}
 
 .gallery figure{
   float: right;
