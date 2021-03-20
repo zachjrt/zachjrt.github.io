@@ -17,7 +17,9 @@
     width: 8em;
     height: auto;
   }
-  .gallery { grid-template-columns: repeat(2, 1fr); }
+  .gallery { 
+    grid-template-columns: repeat(2, 1fr); 
+  }
 
   footer {
     padding-top: .3em;
@@ -109,7 +111,7 @@
   #weekly-forecast {
     margin: 1em;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
+  }
     
 
 
