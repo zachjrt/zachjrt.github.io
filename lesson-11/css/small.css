@@ -238,7 +238,7 @@ tbody {
 picture-img[data-src]{
   filter: blur(0.2em);
   }
-.gallery picture img{
+.gallery figure img{
    filter: blur(0em);
    transition: filter 0.5s;
    width: 100%;
@@ -252,7 +252,7 @@ picture-img[data-src]{
 
 
 
-.gallery picture{
+.gallery figure{
   float: right;
   width: 100%;
   background-color: #555;
