@@ -253,8 +253,9 @@ picture-img[data-src]{
 .events{
   background-color: #6F789F;
   color: #FFF;
-  width: 30%;
+  width: 20em;
   margin:auto;
+  margin-top: 15px;
   border: 3px solid #424242;
 }
 
@@ -264,6 +265,7 @@ picture-img[data-src]{
 .events h3{
   background-color: #4e6077;
   text-align: center;
+  margin: 0;
 }
 
 .gallery figure{
@@ -378,7 +380,9 @@ footer a:hover {
   #forecastHeader {
     display: none;
   }
-
+  .events{
+    width: 90%;
+  }
   .gallery {
     display: grid;
     grid-gap: 1rem;

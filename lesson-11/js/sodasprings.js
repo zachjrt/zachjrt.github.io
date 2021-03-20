@@ -12,7 +12,7 @@ fetch(requestURL)
         for (let i=0; i < events.length; i++) {
         let event = document.createElement('p');
         event.innerHTML = events[i];
-        document.querySelector('.town-events').appendChild(event);
+        document.querySelector('.events').appendChild(event);
         }
     }
    }
