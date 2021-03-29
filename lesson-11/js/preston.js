@@ -43,7 +43,7 @@ fetch(apiURL_forecast)
 });
 
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=da923bb8ec61575a7dfe5e3106bb43c1";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5295903&units=imperial&&APPID=78f51ac9e9dd565af2ff080a1b0ea9d1";
 
 fetch(apiURL)
  .then((response) => response.json())
