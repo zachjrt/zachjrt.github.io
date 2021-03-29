@@ -7,5 +7,4 @@ fetch(apiURL)
    document.getElementById('temperature').innerHTML = Math.round(town.main.temp);
    document.getElementById('currently').innerHTML = description.charAt(0).toUpperCase() + description.slice(1);
    document.getElementById('humidity').innerHTML = town.main.humidity;
-   windchill();
 });

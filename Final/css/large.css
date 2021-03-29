@@ -25,19 +25,17 @@ h1{
 h3{
     color: #fff;
     font-family: 'New Tegomin', serif;
-    background-color: #FB4D3D;
+    background-color: #EAB464;;
     width: 100%;
     margin: 0;
     height: 3rem;
     padding: 1rem;
     font-size: 2rem;
+    text-align: center;
 }
 footer{
     color: #fff;
     background-color: #021D27;
-}
-nav{
-    background-color: #EAB464;
 }
 .logo{
     width: 9em;
@@ -59,3 +57,48 @@ nav{
 .slogan{
     font-size: 2rem;
 }
+.featured{
+    display: flex;
+    width: 98%;
+    margin: auto;
+}
+.featured div{
+    flex: 1 1 100%;
+    background-color: #555;
+    box-shadow: 0px 0px 4px #222;
+    margin: 5px;
+    color: #fff;
+}
+
+/*Navigation*/
+
+.active{
+    background-color: #EAB464;
+}
+nav ul {
+    display: flex;
+    margin: 0px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+  }
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+
+  nav ul li a {
+    background-color: #FB4D3D;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2em;
+    display: block;
+    color: #fff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 0px 4px #222;
+}
+  }
