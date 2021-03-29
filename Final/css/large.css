@@ -13,7 +13,7 @@ div p{
 h1{
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    background-color: #9E0069;
+    background-image: url("banner.png");
     width: 100%;
     margin: 0;
     font-size: 3rem;
