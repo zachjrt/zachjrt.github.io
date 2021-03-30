@@ -21,4 +21,8 @@ h1{
 .featured {
     width:100%;
 }
+.footer img {
+    width: 64px;
+    height: 64px;
+}
 }

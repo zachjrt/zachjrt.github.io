@@ -19,6 +19,21 @@ h1{
     width:100%;
 }
 .featured {
-    width:100%;
+    width:50%;
+    display: block;
+}
+nav ul{
+    display: block;
+}
+nav ul li{
+    width: 50%;
+    float: left;
+}
+#home {
+    width:100%
+}
+.footer img {
+    width: 64px;
+    height: 64px;
 }
 }
