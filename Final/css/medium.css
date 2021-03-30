@@ -20,10 +20,8 @@ h1{
 }
 .featured {
     width:100%;
-    margin: 0px;
 }
-.footer img {
-    width: 64px;
-    height: 64px;
+.footer p{
+    margin: 0px;
 }
 }
