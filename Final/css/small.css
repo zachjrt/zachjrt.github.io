@@ -21,6 +21,7 @@ h1{
 .featured {
     width:50%;
     display: block;
+    margin: 0px;
 }
 nav ul{
     display: block;
@@ -32,8 +33,5 @@ nav ul li{
 #home {
     width:100%
 }
-.footer img {
-    width: 64px;
-    height: 64px;
-}
+
 }
