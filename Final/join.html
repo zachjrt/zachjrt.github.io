@@ -31,8 +31,8 @@
     </header>
     <nav>
         <ul>
-            <li id="home"><a class="active" href="index.html">Home</a></li>
-            <li><a href="city.html">City</a></li>
+            <li id="home"><a href="index.html">Home</a></li>
+            <li><a class="active" href="city.html">City</a></li>
             <li><a href="join.html">Join</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -41,15 +41,44 @@
     <main>
 
 <section>
-  
-</section>
+    <h2>Join The Gilbert Chamber of Commerce</h2>
 
-
-<section>
-<h3>Call to Action</h3>
-<p>We love great business. Helping our community to grow is our goal. Do you have a business? 
-    Do you have a vested interest in our community? Do you want to do something that will help
-     out? Join the Chamber of commerce for the city of Gilbert and help jumostart our community's economy </p>
+        <form>
+        <label class="join">*First Name: <input type="text" name="firstname" pattern="^[a-zA-Z\s\-\.]{3,}$" title="Enter at least two letters" required></label>
+        
+        <label class="join">*Last Name: <input type="text" name="lastname" pattern="^[a-zA-Z\s\-\.]{3,}$" title="Enter at least two letters" required></label>
+        
+         <label class="join">Title: <input type="text" name="title" title="Enter at least two letters" required></label>
+        
+        <label class="join">*Email: <input placeholder="example@business.com" type="email" name="email" required></label> 
+        
+         <label class="info">Cellphone: <input type="tel" name="phone" title="10 digit phone number no formatting" placeholder="1234567890"></label>
+         
+         <label class="join">*Business Name: <input type="text" name="businessname" title="Enter at least two letters" required></label>
+         
+          <label class="join">Business Address: <input type="text" name="businessaddress" title="Enter at least two letters"></label>
+          
+          <label class="join">Business Description: <input type="text" name="businessdescription" title="Enter at least two letters"></label>
+        
+        <h4>Membership Levels</h4>
+          <label>
+          <input type="radio" id="nonprofit" name="gender" value="male">
+          Non-profit ($100)</label>
+          <label>
+          <input type="radio" id="bronze" name="gender" value="female">
+          Bronze ($200)</label>
+          <label>
+          <input type="radio" id="silver" name="gender" value="other">
+          Silver ($400)</label>
+          <label>
+          <input type="radio" id="gold" name="gender" value="other">
+          Gold ($1000)</label>
+          <input type="submit" value="Submit">
+        </form> 
+        
+        <div>
+        TIER LIST EXPLANATION
+        </div>
 </section>
 
 
