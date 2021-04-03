@@ -2,70 +2,92 @@
 <html lang="en">
 
 <head>
-
-   
     <meta charset="UTF-8">
     <meta name="author" content="Zachary Thompson">
     <meta name="description" content="Chamber of Commerce Site for Gilbert Arizona">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!--
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Josefin+Slab&display=swap" rel="stylesheet">
-    -->
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=New+Tegomin&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
     <title></title>
 </head>
-
 <body>
-    <header class="headerContainer">
-        <div id="announcement"></div>
-        <img class="logo" alt="Horizon Weather" src="images/icon_weather.png">
-
-        <div id="titleMoto">
-            <h1>Horizon Weather News</h1>
-            <h3>make plans, not excuses</h3>
+    <header class="headerhome">
+        <img class="logo" alt="Gilbert Chamber of Commerce Logo" src="images/logo.png">
+        <div id="currentweather">
+            <h4>Todays Weather</h4>
+            <p>Temperature: <span id="temperature"></span>&#8457;</p>
+            <p>Currently: <span id="currently"></span></p>
+            <p>Humidity: <span id="humidity"></span>%</p>
         </div>
+        <h1>
+            Gilbert Chamber of Commerce
+            <div class="slogan">Business networking for the future</div>
+        </h1>
+
+       
     </header>
-    <nav class="mobileMenu" onClick="toggleMenu()">
-        <h5 class="menu">Menu</h5>
-
-
-    </nav>
     <nav>
-
-
-        <ul class="mobileNo" id="navLinks">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="preston.html">Preston</a></li>
-            <li><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="fishhaven.html">Fish Haven</a></li>
-            <li><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+        <ul>
+            <li id="home"><a class="active" href="index.html">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+    <main>
+
+        <h2>Join The Gilbert Chamber of Commerce</h2>
+
+        <form>
+        <label class="join">*First Name: <input type="text" name="firstname" pattern="^[a-zA-Z\s\-\.]{3,}$" title="Enter at least two letters" required></label>
+        
+        <label class="join">*Last Name: <input type="text" name="lastname" pattern="^[a-zA-Z\s\-\.]{3,}$" title="Enter at least two letters" required></label>
+        
+         <label class="join">Title: <input type="text" name="title" title="Enter at least two letters" required></label>
+        
+        <label class="join">*Email: <input placeholder="example@business.com" type="email" name="email" required></label> 
+        
+         <label class="info">Cellphone: <input type="tel" name="phone" title="10 digit phone number no formatting" placeholder="1234567890"></label>
+         
+         <label class="join">*Business Name: <input type="text" name="businessname" title="Enter at least two letters" required></label>
+         
+          <label class="join">Business Address: <input type="text" name="businessaddress" title="Enter at least two letters"></label>
+          
+          <label class="join">Business Description: <input type="text" name="businessdescription" title="Enter at least two letters"></label>
+        
+        <h4>Membership Levels</h4>
+          <label>
+          <input type="radio" id="nonprofit" name="gender" value="male">
+          Non-profit ($100)</label>
+          <label>
+          <input type="radio" id="bronze" name="gender" value="female">
+          Bronze ($200)</label>
+          <label>
+          <input type="radio" id="silver" name="gender" value="other">
+          Silver ($400)</label>
+          <label>
+          <input type="radio" id="gold" name="gender" value="other">
+          Gold ($1000)</label>
+          <input type="submit" value="Submit">
+        </form> 
+        
+        <div>
+        TIER LIST EXPLANATION
+        </div>
 
 
-    <main class="container">
-
-        <h2>Thank you!</h2>
-
-    </main>
-
+</main>
     <footer>
-
-       <p> &copy; <span id="year">2021</span> | Zachary Thompson | Arizona | <a href="http://www.byui.edu/online">BYU-Idaho
-            Online Learning</a> </p>
-        <p id="fullDate"></p>
-        <script src="js/date.js">
-        </script>
-        <script src="js/currentyear.js"></script>
-        <script src="js/form.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script src="js/webfontload.js"></script>
+<p><a href="contact.html">Contact Us</a></p>
+<p>3185 South Power Road, Gilbert, Arizona 85295</p>
+<p>(520) 867-5309</p>
+<img alt="Facebook" src="images/facebook.png">
+<img alt="Instagram" src="images/instagram.png">
+<script src="js/weather.js"></script>
     </footer>
 </body>
-
 </html>
