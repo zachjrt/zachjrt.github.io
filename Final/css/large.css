@@ -25,9 +25,10 @@ h1{
 h3{
     color: #fff;
     font-family: 'New Tegomin', serif;
-    background-color: #EAB464;;
-    width: 100%;
-    margin: 0;
+    background-color: #EAB464;
+    width: 1200px;
+    margin:auto;
+    margin-top: 20px;
     font-size: 2rem;
     text-align: center;
     border-top-left-radius: 15px;
@@ -82,6 +83,7 @@ a{
     color: #fff;
     text-align: center;
 }
+
 .footer img {
     width: 64px;
     height: 64px;
@@ -128,8 +130,82 @@ nav ul li {
     margin: 5px;
     color: #fff;
     text-align: center;
-    border-radius: 5px;
+    border-radius:5px;
+}
+
+
+.featuredEvents p{
+    margin: 1px;
 }
 .paragraph{
     font-family: 'Architects Daughter', cursive;
+    margin: 8px;
+    text-align: left;
+    padding: 12px;
+}
+section{
+    width: 1200px;
+    margin: auto;
+    background-color: #ffd;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.citydescription div{
+    height: 490px;
+}
+.citydescription div div{
+    padding: 20px;
+}
+.citydescription img{
+    float: left;
+    padding: 20px;
+}
+.citydescription div:nth-child(2) img{
+    float: right;
+}
+.citydescription a{
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+}
+.citydescription p{
+    font-family: 'Architects Daughter', cursive;
+}
+label{
+    width: 60%;
+    display: grid;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.bubbleform label{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.bubbleform{
+    display: flex;
+    width: 60%;
+    margin: auto
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+}
+h4{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    padding: 20px
+}
+input[type="submit"] {
+    width: 560px;
+}
+section.featured {
+    background: none;
+}
+.levels
+{
+    text-align: center;
+    width: 80%;
+    margin: auto;
 }

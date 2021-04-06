@@ -40,8 +40,9 @@
     </nav>
     <main>
 
+        <h3>Join The Gilbert Chamber of Commerce</h3>
 <section>
-    <h2>Join The Gilbert Chamber of Commerce</h2>
+    
 
         <form class="join" method="GET" action="thanks.html">
         <label class="join">*First Name: <input type="text" name="firstname" pattern="^[a-zA-Z\s\-\.]{3,}$" title="Enter at least two letters" required></label>
@@ -61,6 +62,7 @@
           <label class="join">Business Description: <input type="text" name="businessdescription" title="Enter at least two letters"></label>
         
         <h4>Membership Levels</h4>
+        <div class="bubbleform">
           <label>
           <input type="radio" id="nonprofit" name="gender" value="male">
           Non-profit ($100)</label>
@@ -74,10 +76,24 @@
           <input type="radio" id="gold" name="gender" value="other">
           Gold ($1000)</label>
           <input type="submit" value="Submit">
+        </div>
+       
         </form> 
         
-        <div>
-        TIER LIST EXPLANATION
+        <div class="levels">
+
+           <h4> $100 - Non-Profit</h4>
+            <p>Ideal for start-up businesses, home-based businesses, or sole-proprietor without employees.
+            </p>
+            <h4>$200 - Bronze Level</h4>
+            <p>Ideal for businesses with 25 or fewer employees.
+            </p>
+            <h4>$400 - Silver Level</h4>
+            <p>Recommended for businesses with 200 or fewer employees.
+            </p>
+            <h4>$1000 - Gold Level</h4>
+            <p>Recommended for businesses with more than 200 employees. This level is ideal for those planning to attend multiple Signature events and prefer to be billed for all events and benefits only once per year.
+            </p>
         </div>
 </section>
 
