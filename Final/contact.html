@@ -40,15 +40,17 @@
     </nav>
     <main>
 
-<section class="featured">
-    <p>1530 South Val Vista Drive, Gilbert, AZ</p>
-<p>(520) 867-5309</p>
-</section>
 
 
-<section>
+<h3>Contact us</h3>
+<section class="sectionmap">
+    <h4>Gilbert Chamber of Commerce</h4>
+    <h4>1530 South Val Vista Drive, Gilbert, AZ</h4>
+    <h4>(520) 867-5309</h4>
+    <h4>gilbertcommerce@gilbert.gov</h4>
+
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.8631401781336!2d-111.75839674884742!3d33.32239328071658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872bac060d44131b%3A0x8e293d82e1748060!2s1530%20S%20Val%20Vista%20Dr%2C%20Gilbert%2C%20AZ%2085296!5e0!3m2!1sen!2sus!4v1617503379084!5m2!1sen!2sus" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</section>
+
 
 <form class="contact" method="GET" id="contactform" action="thanks.html">
     <label class="contact">Name: <input type="text" name="firstname" pattern="^[a-zA-Z\s\-\.]{3,}$" title="Enter at least three letters" required></label>
@@ -57,15 +59,18 @@
 
     <label class="contact">Email: <input placeholder="example@business.com" type="email" name="email"></label> 
      
-      <input type="submit" value="Submit">
+    <label class="contact">Comment:
+    <textarea  rows="4" cols="50" name="comment" form="contactform">
+        Enter comment here.</textarea></label>
+
+      <input id="contactSubmit" type="submit" value="Submit">
     </form> 
 
-    <textarea rows="4" cols="50" name="comment" form="contactform">
-        Enter comment here.</textarea>
+    
+    </section>
 
-
+<h3>Board Of Directors</h3>
 <section class="directors">
-    <h3>Board Of Directors</h3>
     <div>
         <p>Board Chair</p>
         <p>Jasmine Holmes</p>

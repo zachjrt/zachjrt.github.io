@@ -24,4 +24,22 @@ h1{
 footer p{
     margin: 0px;
 }
+section{
+    width:100%;
+}
+h3{
+    width:100%;
+}
+.citydescription img {
+    width:300px;
+}
+label{
+    width: 42%;
+}
+#contactSubmit{
+    margin-left: 77px;
+}
+input[type="submit"]{
+    width:auto;
+}
 }

@@ -149,6 +149,7 @@ section{
     background-color: #ffd;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    padding-top:20px;
 }
 .citydescription div{
     height: 490px;
@@ -209,3 +210,15 @@ section.featured {
     width: 80%;
     margin: auto;
 }
+iframe {
+    float: left;
+    margin: 20px;
+}
+#contactSubmit{
+    margin-left: 77px;
+}
+.sectionmap{
+    height: 600px;
+    padding-top: 20px;
+}
+
