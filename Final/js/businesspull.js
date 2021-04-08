@@ -36,13 +36,14 @@ fetch(requestURL)
 
 
         card.appendChild(h4);
+        card.appendChild(picture);
         card.appendChild(address);
         card.appendChild(cityName);
         card.appendChild(phoneNumber);
         card.appendChild(website);
-        card.appendChild(picture);
+        
 
 
-        document.querySelector('div.cards').appendChild(card);
+        document.querySelector('div#bussinessList').appendChild(card);
         }
     });

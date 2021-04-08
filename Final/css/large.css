@@ -244,3 +244,63 @@ iframe {
     display:flex;
     flex: 1 1 100%;
 }
+.cards img{
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+.cards section{
+    color: #fff;
+    background-color: #555;
+    margin-bottom: 20px;
+    width: 340px;
+    min-height: 480px;
+    border-radius: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards p {
+    text-align: center;
+}
+.cards a {
+    text-align: center;
+    display: block;
+    }
+.cardsList{
+    display: block;
+}
+.cardsList img{
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+.cardsList section{
+    color: #fff;
+    background-color: #555;
+    margin-bottom: 20px;
+    width: 80%;
+    min-height: 480px;
+    border-radius: 10px;
+}
+.cardsList p {
+    text-align: center;
+}
+.cardsList a {
+text-align: center;
+display: block;
+}
+.directors{
+   display: flex;
+   flex-wrap: wrap;
+}
+.directors div{
+    background: #555;
+    margin: 20px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
