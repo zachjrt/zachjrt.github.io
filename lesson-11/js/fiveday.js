@@ -10,13 +10,12 @@ fetch(apiURL_forecast)
 
   const weekday = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
 
-   let forecastday = 0;
+   let day = 0;
   forecastData.forEach(forecast => {
     let x = new Date(forecast.dt_txt);
-   document.getElementById('temperature'+(forecastday+1)).textContent = Math.round(forecast.main.temp) + ' °F';
-   document.getElementById('img'+(forecastday+1)).src = "https://openweathermap.org/img/w/" + forecast.weather[0].icon + ".png";
-   document.getElementById('img'+(forecastday+1)).alt = forecast.weather[0].description
-  document.getElementById('forecastday'+(forecastday+1)).textContent = weekday[x.getDay()];
+   document.getElementById('temperature'+(fday+1)).textContent = Math.round(forecast.main.temp) + ' °F';
+   document.getElementById('img'+(day+1)).alt = forecast.weather[0].description
+  document.getElementById('forecastday'+(day+1)).textContent = weekday[x.getDay()];
   forecastday++;	  
   });
 });

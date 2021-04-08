@@ -37,9 +37,12 @@ label{
     width: 42%;
 }
 #contactSubmit{
-    margin-left: 77px;
+    margin-left: 15%;
 }
 input[type="submit"]{
     width:auto;
+}
+footer{
+    min-height: 90px;
 }
 }

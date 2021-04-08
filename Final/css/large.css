@@ -38,12 +38,9 @@ h3{
 footer{
     color: #fff;
     background-color: #021D27;
-    display: flex;
+    min-height: 120px;
 }
-footer p{
-    color: #fff;
-    flex: 1 1 100%;
-    text-align: center;
+
 }
 a{
     color: #fff;
@@ -218,7 +215,34 @@ iframe {
     margin-left: 77px;
 }
 .sectionmap{
-    height: 600px;
+    height: 670px;
     padding-top: 20px;
 }
-
+.eventMonth{
+    font-size: 3rem;
+}
+.eventDay{
+    font-size: 3rem;
+}
+.footerContact{
+    display:flex
+}
+.footerContact p{
+    color: #fff;
+    flex: 1 1 100%;
+    text-align: center;}
+.footerContact a{
+    color: #fff;}
+.footerCredit p{
+    text-align: center;}
+.footerSocial{
+    position: absolute;
+    right: 0;
+}
+.threeForecast{
+    display:flex;
+}
+.threeForecast div{
+    display:flex;
+    flex: 1 1 100%;
+}

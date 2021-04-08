@@ -69,4 +69,7 @@ input[type="submit"] {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+footer{
+    min-height: 105px;
+}
 }
