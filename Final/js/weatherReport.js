@@ -5,10 +5,14 @@ fetch(apiURL)
    console.log(gilfor);
 
    
-
+   const day = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
    let description = gilfor.weather[0].description;
-   for (let i = 1; i < 4; i++ ) {
+   let x = new Date();
+   let n = x.getDay()
+
+   for (let i = 0; i < 3; i++ ) {
    document.getElementById('temp' + i).innerHTML = Math.round(gilfor.main.temp);
    document.getElementById('description' + i).innerHTML = description;
+   document.getElementById('day' + i).innerHTML = day[n + i];
 }
 });
